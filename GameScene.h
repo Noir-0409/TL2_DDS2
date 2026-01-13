@@ -23,4 +23,9 @@ private:
 
 	Sprite* sprite_ = nullptr;
 
+	Model* model_ = nullptr;
+
+	WorldTransform worldTransform_;
+	Camera camera_;
+
 };
